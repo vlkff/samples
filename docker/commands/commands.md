@@ -28,7 +28,7 @@ For true persistence use volumes or bindings
 
 e.g.
 
-`docker run -d -i --name 3dmm.container.mariadb 3dmm-mariadb bash`
+`docker run -d -i --name 3dmm.container.mariadb 3dmm.container.mariadb bash`
 
 add --rm option to autoremove it on exit
 

@@ -99,17 +99,7 @@ See package info `pacman -Qi <name>`
 
 ### Tips & tricks
 
-
-A simple infinite command to keep it's process running
-
-`bash -c "shuf -i 1-10000 -n 1 -o /data.txt && tail -f /dev/null"` 
-
-we’re starting a bash shell and invoking two commands (why we have the &&). 
-The first portion picks a single random number and writes it to /data.txt. The second command is simply watching a file to keep the container running.
-
-##
-
-How to take 1st (or N) column of command output
+### How to take 1st (or N) column of command output
 
 `cat <some-file> | grep 'some grep'  | sed 's/\|/ /'|awk '{print $1}'`
 
@@ -118,6 +108,10 @@ E.g. in follow command we looking for all docker containers matched to '3dmm nam
 and output last value of first column (hash) of results, now we can do something with this hash
  
 `docker ps -a | grep '3dmm' | sed 's/\|/ /'|awk '{print $1}'|tail -n 1`
+
+`cat /etc/passwd | awk -F':' '{ print $1 }'` - this way to take the 1st col
+
+`cat /etc/passwd | cut -d: -f1` - or this way to take the 1st col
 
 ##
 
