@@ -90,11 +90,7 @@ shopt
 
 `https://it.wikireading.ru/11344`
 
-## Package managers
 
-### Pacman
-
-See package info `pacman -Qi <name>`
 
 
 ### Tips & tricks

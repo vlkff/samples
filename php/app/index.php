@@ -1,2 +1,3 @@
 <?php
-phpinfo();
+echo 'yo yo yo';
+//phpinfo();
