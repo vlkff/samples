@@ -14,5 +14,6 @@ ee.demo_ef();
 import ff from './f.js';
 ff.demo_ff();
 
+// See g.js for a best way how to organise a module
 import g_alias from './g.js';
 g_alias.demo_gf();

@@ -18,9 +18,9 @@
 looks like the 'application' object or module or something that mod_wsgi requiring.   
 
 ### What I need to do next
-  - up a container for JS playground - it would be easy :)
-  - create an example for php modularity using include, require and namespaces
-  - create an example for JS modularity
+  - [DONE] up a container for JS playground - it would be easy :)
+  - [DONE] create an example for php modularity using include, require and namespaces
+  - [DONE] create an example for JS modularity
   - learn a python basics by https://docs.python.org/3/tutorial/index.html
   - learn how these modules or somethng work in a python
   - create an example for py modularity for cli script

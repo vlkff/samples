@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Namespaces is a common modern way to organize modularity of the app and components.
+ */
 namespace namespaces\demo;
 
 echo 'File ' . __FILE__. ' included ' . PHP_EOL;
@@ -23,4 +25,6 @@ require_once 'b.php';
 use function namespaces\b\demo_func as b_demo_func;
 b_demo_func();
 
-namespace\demo_func();
+__NAMESPACE__\demo_func();
+
+
